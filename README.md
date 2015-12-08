@@ -8,4 +8,8 @@ The story as it stands: I was thinking of using tiling.js for a commercial proje
 
 It's not really ready for end-users yet. Although I love it just the way it is, a thing like this really shouldn't require any instructions to use, as it currently does. Tiles should have some UI component by which the tile can be dragged and moved (conventionally, a title bar, but I'd prefer.. some floating element at the top right corner that can be dragged to move the window and hovered or clicked to bring up Close and Remorph buttons), it should be possible to resize tiles by dragging the borders between them, and there should be a straightforward API for making widgets.. docks,from which new windows can be drawn.
 
-I do think the source and the usage example is quite clear (even if it is coffeescript (yeah I don't stand by that choice. I still think CS is like, objectively the prettiest possible syntax but I wish I'd done it in typescript instead)), so I welcome anyone interested to contribute.
+I do think [the source](https://github.com/makoConstruct/tiling.js/blob/master/tiling.coffeescript) and [the example](https://github.com/makoConstruct/tiling.js/blob/master/index.coffeescript) is quite clear (even if it is coffeescript (yeah I don't stand by that choice. I still think CS is like, objectively the prettiest possible syntax but I wish I'd done it in typescript instead)), so I welcome anyone interested to contribute.
+
+## fyi
+
+The fuzzy autocompletion used in the demo is [shac.js](https://github.com/makoConstruct/shac.js).
